@@ -22,3 +22,42 @@ a{
 a:hover {
   color:black;
 }
+
+body {
+  background-color: #7F7100;
+}
+
+.panda {
+  width: 180px;
+  height: 180px;
+  margin-left:80px;
+  margin-top:100px;
+  float: left;
+  display: inline-block;
+  border: 5px solid gray;
+}
+
+#pandaUno{
+  background-image: url("../img/pandauno.jpg");
+  background-repeat: no-repeat;
+}
+
+#pandaDos{
+  background-image: url("../img/pandados.jpg");
+  background-repeat: no-repeat;
+}
+
+#pandaTres{
+  background-image: url("../img/pandatres.jpg");
+  background-repeat: no-repeat;
+}
+
+#pandaCuatro{
+  background-image: url("../img/pandacuatro.jpg");
+  background-repeat: no-repeat;
+}
+
+.cerrar {
+  width: 15px;
+  height: 15px;
+}
