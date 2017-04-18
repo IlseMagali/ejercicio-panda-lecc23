@@ -1,7 +1,13 @@
-.contenedor{
+.contenedor {
   height: 300px;
   width: 100%;
 }
+
+.contenedordelgado {
+  height: 150px;
+  width: 100%;
+}
+
 header {
   position: fixed; /*hace que nuestro menu se quede fijo*/
   background-color: #FF390E;
@@ -86,6 +92,11 @@ body {
   display:inline-block;
   font-family: sans-serif;
   color:whitesmoke;
-  float:left;
-  
+  margin-left: 70px;
+  width: 500px;
+}
+
+p {
+  font-family: sans-serif;
+  color:whitesmoke;
 }
