@@ -1,3 +1,7 @@
+.contenedor{
+  height: 300px;
+  width: 100%;
+}
 header {
   position: fixed; /*hace que nuestro menu se quede fijo*/
   background-color: #FF390E;
@@ -17,6 +21,7 @@ a{
   color: whitesmoke;
   text-decoration: none;
   padding: 10px;
+  font-family: sans-serif;
 }
 
 a:hover {
@@ -60,4 +65,27 @@ body {
 .cerrar {
   width: 15px;
   height: 15px;
+}
+
+/*BOTONES NARANJAS*/
+.botonnaranja {
+  display:inline-block;
+  background-color: #FF390E;
+  height: 25px;
+  width: 370px;
+  margin-left: 40px;
+  margin-top: 40px;
+  color:whitesmoke;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 12px;
+}
+
+/*texto divs*/
+.textodivs {
+  display:inline-block;
+  font-family: sans-serif;
+  color:whitesmoke;
+  float:left;
+  
 }
